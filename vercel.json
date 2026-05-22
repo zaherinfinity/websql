@@ -3,6 +3,6 @@
     { "src": "public/index.html", "use": "@vercel/html" }
   ],
   "routes": [
-    { "src": "/public/(.*)", "dest": "/public/index.js" }
+    { "src": "/public/(.*)", "dest": "/public/index.html" }
   ]
 }
